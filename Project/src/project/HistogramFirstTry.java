@@ -10,7 +10,7 @@ import java.util.List;
  * @author adesanto
  *
  */
-public class HistogramFirstAttempt {
+public class HistogramFirstTry {
 	
 	class Node {
 		int number;
@@ -36,6 +36,8 @@ public class HistogramFirstAttempt {
 		
 		System.out.println("Brute force approach: ");
 		
+		
+		//cataloging work starts here
 		long time = System.currentTimeMillis();
 		for (int number : array) 
 			add(number, list);
